@@ -12,5 +12,7 @@ var Info = components.Package{
 
 func ComponentList() map[string]func() interface{} {
 	_components["dom/GetElement"] = components.NewGetElement
+	_components["core/Split"] = components.NewSplit
+
 	return _components
 }
