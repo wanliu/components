@@ -6,6 +6,6 @@ type GetElement struct {
 	flow.Component
 }
 
-func NewGetElement() *GetElement {
+func NewGetElement() interface{} {
 	return new(GetElement)
 }
